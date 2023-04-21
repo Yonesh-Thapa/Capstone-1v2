@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link rel="icon" href="images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                        alt="BHOE-LA-DOHH Logo">
+                    BHOE-LA-DOHH
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login | Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html">Checkout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="https://www.instagram.com/bhoeladohh/"><img
+                                    src="images/insta.png" width="30" height="30" alt="instagram"></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2 class="mt-5 pt-5 text-center fw-bold">Create an Account</h2>
+            <form>
+
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="email" class="form-label">Email<span class="text-muted"></span></label>
+                            <input type="email" class="form-control fst-italic" id="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="passwordInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordInput1" placeholder="Password"
+                                required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="passwordInput2" class="form-label">Re-enter Password</label>
+                            <input type="password" class="form-control" id="passwordInput2" placeholder="Password"
+                                required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control fst-italic" id="address"
+                                placeholder="123 Washington St">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="address2" class="form-label">Address 2<span
+                                    class="text-muted">(Optional)</span></label>
+                            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="country" class="form-label">Country</label>
+                            <select class="form-select" id="country">
+                                <option value="">Choose your country</option>
+                                <option>Nepal</option>
+                                <option>United States of America</option>
+                                <option>My country</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="state" class="form-label">State</label>
+                            <select class="form-select" id="state">
+                                <option value="">Choose your state</option>
+                                <option>Kathmandu</option>
+                                <option>New York</option>
+                                <option>Your State</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="zip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder="">
+                        </div>
+                        <div>
+                            <hr class="my-6">
+                        </div>
+                        <div class="form-check col-sm-6">
+                            <input type="checkbox" class="form-check-input" id="condition-privacy">
+                            <label class="form-check-label" for="condition-privacy">I agree to the <a
+                                    href="condition.html">Condition of Use</a> and <a href="privacy.html">Privacy
+                                    Notice</a> of BHOE LA DOHH by creating an account.</label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h4>How did you hear about us?</h4>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="search-engine">Search Engine (Google, Bing,
+                                etc.)</label>
+                            <input id="search-engine" name="survery" type="radio" class="form-check-input" checked>
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="social-media">Social Media</label>
+                            <input id="social-media" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="radio">Radio</label>
+                            <input id="radio" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="television">Television</label>
+                            <input id="television" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="streaming-service">Streaming Service Ad</label>
+                            <input id="streaming-service" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="newspaper">Newspaper / Online Newspaper</label>
+                            <input id="newspaper" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="bill-board">Bill board</label>
+                            <input id="bill-board" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="word-of-mouth">Word of Mouth</label>
+                            <input id="word-of-mouth" name="survery" type="radio" class="form-check-input">
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label" for="referral">Referral</label>
+                            <input id="referral" name="survery" type="radio" class="form-check-input">
+
+                            <div class="form-group">
+                                <label class="form-check-label" for="other">Other</label>
+                                <input id="other" name="survery" type="radio" class="form-check-input">
+                                <input id="specify" name="survey" type="text" class="form-control"
+                                    placeholder="Please Specify">
+                                <label for="specify"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-primary mt-3">Create Account</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+
+        <div class="container p-4">
+
+            <div class="row mt-4">
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">About company</h5>
+
+                    <p>
+                        BHOE LA DOHH means, "Let&apos;ss go to Tibet" in . Our T-shirt desing&apos;s are
+                        illustrated and designed by talented Tibetan artist from New York, Canada and India.
+                        Our goal is to promote Tibetan arts and artists.
+                    </p>
+
+                    <p>
+                        For every item purchased, we are donating 10% of fthe sales to Sambhota Sonada Hostel
+                        (C.S.T Sonada Darjeeling). Our donation will help Tibetan students for better education and
+                        living
+                        facilities.
+                    </p>
+
+
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+                    <div class="form-outline form-white mb-4">
+                        <input type="text" id="formControlLg" class="form-control form-control-lg">
+                        <label class="form-label" for="formControlLg" style="margin-left: 0px;">Search</label>
+                        <div class="form-notch">
+                            <div class="form-notch-leading" style="width: 9px;"></div>
+                            <div class="form-notch-middle" style="width: 48.8px;"></div>
+                            <div class="form-notch-trailing"></div>
+                        </div>
+                    </div>
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY
+                                11433,
+                                US</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">info@example.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567
+                                88</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567
+                                89</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Proucts</h5>
+
+                    <table class="table text-center text-white">
+                        <tbody class="font-weight-normal">
+                            <tr>
+                                <td>T-shirts</td>
+                                <td>Pants</td>
+                            </tr>
+                            <tr>
+                                <td>Tote Bag</td>
+                                <td>Hat</td>
+                            </tr>
+                            <tr>
+                                <td>Hats</td>
+                                <td>Sweat-Shirts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="index.html">BHOE LA DOH</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

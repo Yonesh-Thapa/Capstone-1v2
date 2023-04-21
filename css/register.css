@@ -1,0 +1,17 @@
+.btn{
+    color:#000000;
+    background-color: #cfcfcf;
+    border-color:#e6e8e5;
+    
+   
+}
+.content div{
+    margin-bottom:1rem;
+    margin:1rem auto;
+}
+.form-check-label{
+    border-color:#000000;
+}
+label{
+    font-weight:bold;
+}

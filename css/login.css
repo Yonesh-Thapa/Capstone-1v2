@@ -1,0 +1,26 @@
+.btn{
+    color:#000000;
+    background-color: #cfcfcf;
+    border-color:#e6e8e5;
+    
+   
+}
+.content div{
+    margin-bottom:1rem;
+    margin:1rem auto;
+}
+.content{
+    margin: 8vw;
+}
+form{
+    padding-top:3vw;
+}
+
+
+/* * {
+    background-color: #00000011;
+    border: 1px solid black;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */

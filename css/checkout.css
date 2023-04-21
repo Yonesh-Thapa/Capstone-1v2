@@ -1,0 +1,15 @@
+.btn{
+    color:#000000;
+    background-color: #cfcfcf;
+    border-color:#e6e8e5;
+    
+   
+}
+.container div{
+    margin-bottom:1rem;
+    margin:1rem auto;
+}
+
+label{
+    font-weight:bold;
+}

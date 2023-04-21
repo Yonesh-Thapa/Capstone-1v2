@@ -1,0 +1,19 @@
+h4{
+    text-decoration: none;
+    color:#000000;
+}
+a{
+    text-decoration:none;
+}
+/* body{
+    background-color: #cfcfcf;
+} */
+
+.content .btn{
+    background-color:#333741;
+    color:#cfcfcf;
+}
+body{
+    background-image: linear-gradient(#cfcfcf,#333741);
+}
+
